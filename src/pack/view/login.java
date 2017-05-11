@@ -46,39 +46,45 @@ public class login extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         txtnama = new javax.swing.JTextField();
         txtpass = new javax.swing.JPasswordField();
+        jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         btIn = new javax.swing.JButton();
         btUp = new javax.swing.JButton();
         btKeluar = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
         getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(0, 255, 204));
+        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
         jPanel1.setLayout(null);
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setText("PASSWORD");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(200, 80, 80, 30);
+        jLabel2.setBounds(10, 80, 80, 30);
 
         jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 102, 102));
         jLabel3.setText("USERNAME");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(200, 10, 80, 30);
+        jLabel3.setBounds(10, 10, 80, 30);
 
         txtnama.setSelectionColor(new java.awt.Color(204, 204, 255));
         jPanel1.add(txtnama);
-        txtnama.setBounds(170, 40, 130, 30);
+        txtnama.setBounds(10, 40, 130, 30);
 
         txtpass.setSelectionColor(new java.awt.Color(204, 204, 255));
         jPanel1.add(txtpass);
-        txtpass.setBounds(170, 110, 130, 30);
+        txtpass.setBounds(10, 110, 130, 30);
+
+        jLabel1.setFont(new java.awt.Font("Photographs", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("LOGIN");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(210, 40, 220, 70);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 70, 480, 180);
@@ -96,7 +102,7 @@ public class login extends javax.swing.JFrame {
             }
         });
         jPanel2.add(btIn);
-        btIn.setBounds(110, 30, 120, 30);
+        btIn.setBounds(0, 30, 120, 30);
 
         btUp.setBackground(new java.awt.Color(204, 255, 255));
         btUp.setFont(new java.awt.Font("OCR A Extended", 1, 12)); // NOI18N
@@ -108,7 +114,7 @@ public class login extends javax.swing.JFrame {
             }
         });
         jPanel2.add(btUp);
-        btUp.setBounds(250, 30, 120, 30);
+        btUp.setBounds(350, 30, 120, 30);
 
         btKeluar.setBackground(new java.awt.Color(204, 204, 255));
         btKeluar.setFont(new java.awt.Font("OCR A Extended", 1, 12)); // NOI18N
@@ -120,20 +126,13 @@ public class login extends javax.swing.JFrame {
             }
         });
         jPanel2.add(btKeluar);
-        btKeluar.setBounds(110, 70, 260, 30);
+        btKeluar.setBounds(150, 30, 180, 30);
 
         getContentPane().add(jPanel2);
         jPanel2.setBounds(0, 250, 480, 140);
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(204, 255, 255));
         jPanel3.setLayout(null);
-
-        jLabel1.setFont(new java.awt.Font("Photographs", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("LOGIN");
-        jPanel3.add(jLabel1);
-        jLabel1.setBounds(180, 20, 140, 29);
-
         getContentPane().add(jPanel3);
         jPanel3.setBounds(0, 0, 480, 70);
 
